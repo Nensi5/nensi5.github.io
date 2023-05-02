@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<header>
+<div class="korisnik">
+    <img src="img/nevena.jpg" alt="">
+    <h3 class="ime">Nevena Čelić</h3>
+    <p class="pozicija">Full-Stack Developer</p>
+</div>
+<nav class="navigacija">
+    <ul>
+        <li><a href="#pocetna">Pocetna</a></li>
+        <li><a href="#omeni">O meni</a></li>
+        <li><a href="#obrazovanje">Obrazovanje</a></li>
+        <li><a href="#projekti">Projekti</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+        
+    
+    </ul>
+</nav>
+
+
+</header>
+<div id="meni" class="fas fa-bars"></div>
+
+
+<section class="pocetna" id="pocetna">
+
+    <h3>ZDRAVO !</h3>
+    <h1>Nevena<span> ovde</span></h1>
+    <p>Vaš Full-Stack Developer, ako želite da saznate više o meni možete pogledati na odeljku "o meni"</p>
+<a href="#omeni"><button class="btn">O meni <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<section class="omeni" id="omeni">
+
+    <h1 class="heading"><span>O </span>Meni </h1>
+    <div class="row">
+        <div class="info">
+            <h3><span>ime i prezime:</span> Nevena Čelić</h3>
+            <h3><span>zvanje:</span> inženjer</h3>
+            <h3><span>pozicija:</span> Full-Stack Developer</h3>
+            <h3><span>jezici:</span> srpski, engleski</h3>
+            <h3><span>godine:</span> 23</h3>
+            <a href="doc/Nevena Čelić CV (2).pdf" download="newfilename" ><button class="btn">Preuzmi CV <i class="fas fa-download"></i></button></a>
+        </div>
+        <div class="counter">
+        <div class="box">
+            <span>bez</span>
+            <h3> relativnog radnog iskustva</h3>
+        </div>
+        <div class="box">
+            <span>10+</span>
+            <h3>završenih projekata</h3>
+        </div>
+        <div class="box">
+            <span>16+</span>
+            <h3>završenih kurseva u oblasti IT-a</h3>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+<section class="obrazovanje" id="obrazovanje">
+    <h1 class="heading">Moje<span> Obrazovanje </span> </h1>
+
+    <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2022</span>
+          <h3>Informacione tehnolagije i sistemi</h3>
+          <p>Visoka škola elektorehnike i računarastva</p>
+
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2019</span>
+          <h3>Elektrotehničar računara</h3>
+          <p>Tehnička škola Železnik</p>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="projekti "id="projekti">
+    <h1 class="heading">Završeni<span> Projekti </span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <a href="https://github.com/Nensi5/final-project"><img src="img/rem-beauty.png" alt=""></a>
+        </div>
+        <div class="box">
+            <img src="img/sephora.jpg" alt="">
+        </div>
+        <div class="box">
+            <a href="https://github.com/Nensi5/project-music-player"><img src="img/deezer.png" alt=""></a>
+        </div>
+</section>
+<section class="kontakt"id="kontakt">
+    <h1 class="heading">Način<span> Kontaktiranja </span> </h1>
+
+    <div class="row">
+        <div class="content">
+            <h3 class="title">kontakt:</h3>
+            <div class="info">
+            <h3><i class="fas fa-envelope"></i>nevenacelic@yahoo.com</h3>
+            <h3><i class="fas fa-phone"></i>061 6870 263</h3>
+            <h3><i class="fas fa-map-marker-alt"></i> Srbija, Beograd, 11000</h3><br>
+            </div>
+            <h3 class="title">društvene mereže:</h3>
+            <div class="info">
+            <a href="https://www.linkedin.com/in/nevenacelic5/" class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></a>
+            <a href="https://www.instagram.com/itznevena/" class="fab fa-instagram fa-2x"  style="color: #ac2bac;"></a>
+            <a href="https://github.com/Nensi5" class="fab fa-github"></a>
+            </div>
+        
+        </div> 
+    <form action="">
+ 
+        <input type="text" placeholder="ime"class="box">
+        <input type="text" placeholder="prezime"class="box">
+        <input type="email" placeholder="email"class="box">
+        <input type="text" placeholder="broj telefona"class="box">
+
+        <textarea nema="" id="" cols="30" rows="10" class="box message" placeholder="poruka">
+        </textarea>
+
+        <button type="submit" class="btn">Pošalji <i class="fas fa-paper-plane"></i></button>
+    </form>
+    
+    </div>
+    
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+   
+</body>
+</html>
